@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: anas-ai
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      # Optional: add OPENAI_API_KEY in Render dashboard for full AI
+      # - key: OPENAI_API_KEY
+      #   sync: false
