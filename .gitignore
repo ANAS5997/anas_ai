@@ -1,5 +1,8 @@
 node_modules/
 dist/
+public/pwa-192.png
+public/pwa-512.png
+public/apple-touch-icon.png
 .env
 *.log
 .DS_Store

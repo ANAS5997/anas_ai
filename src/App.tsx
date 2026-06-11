@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import ChatArea from './components/ChatArea';
 import ChatInput from './components/ChatInput';
+import InstallPrompt from './components/InstallPrompt';
 import { useTheme } from './hooks/useTheme';
 import { useChatStore } from './store/chatStore';
 
@@ -24,6 +25,7 @@ export default function App() {
         <ChatArea />
         <ChatInput />
       </main>
+      <InstallPrompt />
     </div>
   );
 }
